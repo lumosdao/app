@@ -39,36 +39,6 @@
         </div>
     </section>
 
-    {{-- <section class="optionsDiv">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h4>Options</h4>
-                </div>
-            </div>
-            <div class="optionsInnerDiv">
-                <div class="row">
-                    <div class="col-12">
-                        <form class="optionsForm">
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Option 1</label>
-                                <input type="text" placeholder="Enter Option" class="form-control"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3 disable">
-                                <label for="exampleInputPassword1" class="form-label ">Option 2</label>
-                                <input type="text" placeholder="Revoke Proposal" class="form-control option2"
-                                    id="exampleInputPassword1">
-                            </div>
-                            <button type="" class="btn btn-most"> <img src="{{ asset('images/+.png') }}" alt=""> Most
-                                recent</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="dateSection">
         <div class="container">
             <div class="innerDate">

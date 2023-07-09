@@ -1,11 +1,8 @@
     <!-- bootstarp 5 js -->
-    <div class="modal fade" id="ConnectWallet" {{-- {{ !isset($_COOKIE['public']) ? 'data-bs-backdrop=static data-bs-keyboard=false' : '' }} --}} tabindex="-1" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="ConnectWallet" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content modal-wallet">
-                {{-- <a href="{{ url('wallet/disconnect') }}" class="text-danger remove-btn"
-                    style="position: absolute;z-index: 1;top: 5%;right: 4%;text-decoration:none;{{ isset($_COOKIE['public']) ? '' : 'display:none' }}">Remove
-                    Wallet</a> --}}
                 <div class="modal-header">
                     <h5 class="modal-title">Connect Wallet</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -42,10 +39,6 @@
                                         <a href="#" wallet="xbull"><img
                                                 src="{{ asset('images/xbull.png') }}">Xbull</a>
                                     </li>
-                                    {{-- <li class="item-drop wallet-drop-items">
-                                        <a href="#" wallet="privatekey"><img class=""
-                                                src="{{ asset('images/privatekey.png') }}">Private Key</a>
-                                    </li> --}}
                                 </ul>
 
                                 <!-- Alternative to close dropdown with click out -->
@@ -61,7 +54,6 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="cont-btn">
-                                            {{-- onclick="connectWallet()" --}}
                                             <a type="button"
                                                 class="walletconnect-btn btn dope mt-0"
                                                 href="javascript::void()">Connect
